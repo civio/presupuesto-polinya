@@ -68,7 +68,7 @@ SEARCH_ENTITIES = False
 
 # Supported languages. Default: ('ca', 'Catal&agrave;')
 LANGUAGES = (
-  ('es', 'Castellano'),
+  ('ca', 'Catal&agrave;'),
 )
 
 # Setup Data Source Budget link
