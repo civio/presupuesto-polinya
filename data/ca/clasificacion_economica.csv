@@ -524,16 +524,16 @@ G,9,4,1,Devolució de fiances
 #
 # Conceptos específicos de Polinya
 #
-G,1,4,1,*****GASTO 141*****
-I,3,0,5,*****GASTO 305*****
-I,3,1,4,*****GASTO 314*****
-I,3,1,5,*****GASTO 315*****
-I,3,1,6,*****GASTO 316*****
-I,3,2,7,*****GASTO 327*****
-I,3,2,8,*****GASTO 328*****
-I,4,7,0,*****GASTO 470*****
-G,4,8,0,*****GASTO 480*****
-G,4,8,2,*****GASTO 482*****
-G,4,8,3,*****GASTO 483*****
-G,4,8,9,*****GASTO 489*****
-I,5,2,0,*****GASTO 520*****
+I,3,0,5,Cementiri municipal
+I,3,1,4,Activitats culturals
+I,3,1,5,Activitats juvenils
+I,3,1,6,Activitats promoció econòmica
+I,3,2,7,Llicències autotaxis
+I,3,2,8,Llicències obertura establiments
+I,4,7,0,D'empreses privades
+I,5,2,0,Interessos de caixes i bancs
+G,1,4,1,Altre personal
+G,4,8,0,Ajuts socials
+G,4,8,2,Conveni Creu Roja
+G,4,8,3,Aportacio a grups politics
+G,4,8,9,Altres transferències
