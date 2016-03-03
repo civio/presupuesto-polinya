@@ -3,7 +3,7 @@
 from django.conf.urls import patterns, url
 
 MAIN_ENTITY_LEVEL = 'municipio'
-MAIN_ENTITY_NAME = 'Polinya'
+MAIN_ENTITY_NAME = 'Polinyà'
 
 BUDGET_LOADER = 'PolinyaBudgetLoader'
 PAYMENTS_LOADER = 'PolinyaPaymentsLoader'
