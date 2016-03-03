@@ -74,13 +74,16 @@ $navbar-border-radius: 0;
 // Point at which the navbar becomes uncollapsed
 // $grid-float-breakpoint: 992px;  // $screen-md
 
-$dvmi-menu-length: 3;  // Number of items in main menu
+$dvmi-menu-length: 4;  // Number of items in main menu
 
 // Navbar background color
 $navbar-default-bg: $brand-primary;
 
 // Navbar options text color
 $dvmi-navbar-color: mix( $brand-primary, white, 10% );
+
+$navbar-default-link-active-color:    white;
+$navbar-default-link-active-bg:       mix( $navbar-default-bg, white, 75% );
 
 
 // Popover
@@ -160,6 +163,13 @@ $page-header-border-color:  $brand-primary;  //mix( $brand-secondary, white, 70%
 // --------------
 
 $budget-stream-color: $brand-secondary;
+
+
+// Year Slider
+// --------------
+
+$slider-bg:     mix( $gray-light, $gray-lighter, 50% );
+$slider-color:  $brand-primary;
 
 
 // Data Panel
