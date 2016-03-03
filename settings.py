@@ -11,22 +11,28 @@ PAYMENTS_LOADER = 'PolinyaPaymentsLoader'
 FEATURED_PROGRAMMES = ['3340', '4910', '9120']
 
 OVERVIEW_INCOME_NODES = [
-                          {'label': 'Educació', 'nodes': '32'},
-                          {'label': 'Cultura', 'nodes': '33'},
-                          {'label': 'Esport', 'nodes': '34'},
-                          {'label': 'Seguretat i mobilitat ciutadana', 'nodes': '13'},
+                          {
+                            'nodes': [['11', '113']],
+                            'label.ca': 'Sobre béns immobles de naturalesa urbana',
+                            'label.es': 'Sobre bienes inmuebles de naturaleza urbana'
+                          },
+                          '13', '42', '45',
+                          {
+                            'nodes': [['11', '115']],
+                            'label.ca': 'Impost sobre vehicles de tracció mecànica',
+                            'label.es': 'Impuesto sobre vehículos de tracción mecánica'
+                          },
+                          {
+                            'nodes': [['30', '302']],
+                            'label.ca': "Servei de recollida d'escombraries",
+                            'label.es': 'Servicio de recogida de basuras'
+                          },
                         ]
-OVERVIEW_EXPENSE_NODES =  [
-                            {'label': 'Deute', 'nodes': '01'},
-                            {'label': 'Educació', 'nodes': '32'},
-                            {'label': 'Cultura', 'nodes': '33'},
-                            {'label': 'Esport', 'nodes': '34'},
-                            {'label': 'Seguretat i mobilitat ciutadana', 'nodes': '13'},
-                          ]
+OVERVIEW_EXPENSE_NODES = ['15', '92', '32', '16', '43', '34', '13']
 
 # How aggresive should the Sankey diagram reorder the nodes. Default: 0.79 (Optional)
 # Note: 0.5 usually leaves nodes ordered as defined. 0.95 sorts by size (decreasing).
-# OVERVIEW_RELAX_FACTOR = 0.5
+OVERVIEW_RELAX_FACTOR = 0.5
 
 # Show Payments section in menu & home options. Default: False.
 SHOW_PAYMENTS           = True
@@ -48,7 +54,7 @@ SHOW_INSTITUTIONAL_TAB  = True
 #SHOW_ACTUAL = True
 
 # Include financial income/expenditures in overview and global policy breakdowns. Default: False.
-INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = True
+INCLUDE_FINANCIAL_CHAPTERS_IN_BREAKDOWNS = False
 
 # Search in entity names. Default: True.
 SEARCH_ENTITIES = False
