@@ -8,7 +8,7 @@ MAIN_ENTITY_NAME = 'Polinyà'
 BUDGET_LOADER = 'PolinyaBudgetLoader'
 PAYMENTS_LOADER = 'PolinyaPaymentsLoader'
 
-FEATURED_PROGRAMMES = ['3340', '4910', '9120']
+FEATURED_PROGRAMMES = ['1630', '1650', '2410', '3380']
 
 OVERVIEW_INCOME_NODES = [
                           {
