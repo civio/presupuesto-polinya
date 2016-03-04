@@ -66,7 +66,7 @@ LANGUAGES = (
 )
 
 # Setup Data Source Budget link
-DATA_SOURCE_BUDGET      = 'http://www.ayto-polinya.es/presupuestos-municipales-2015'
+DATA_SOURCE_BUDGET      = 'http://www.polinya.cat/public/ajuntament/documents-oficials/Pressupostos/'
 
 # Setup Data Source Population link
 DATA_SOURCE_POPULATION  = 'http://www.ine.es/jaxiT3/Tabla.htm?t=2861'
