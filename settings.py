@@ -35,10 +35,10 @@ OVERVIEW_EXPENSE_NODES = ['15', '92', '32', '16', '43', '34', '13']
 OVERVIEW_RELAX_FACTOR = 0.5
 
 # Show Payments section in menu & home options. Default: False.
-SHOW_PAYMENTS           = False
+SHOW_PAYMENTS           = True
 
 # Show Tax Receipt section in menu & home options. Default: False.
-SHOW_TAX_RECEIPT        = False
+SHOW_TAX_RECEIPT        = True
 
 # Show Counties & Towns links in Policies section in menu & home options. Default: False.
 SHOW_COUNTIES_AND_TOWNS = False

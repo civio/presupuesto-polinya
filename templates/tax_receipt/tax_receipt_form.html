@@ -1,0 +1,96 @@
+<form class="form-user-incomings" action="#" method="get">
+
+  <h3>{{ _('Impuestos') }}</h3>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-house">{{ _('Inmueble') }}</label>
+      <select id="select-house" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Casa de 120 m\u00B2 en Balmes') }}</option>
+        <option value="1" type="text">{{ _('Piso de 90 m\u00B2 en Balmes') }}</option>
+        <option value="2" type="text">{{ _('Casa de 250 m\u00B2 en C.Rovira') }}</option>
+        <option value="3" type="text">{{ _('Piso de 110 m\u00B2 en C.Rovira') }}</option>
+        <option value="4" type="text">{{ _('Piso de 130 m\u00B2 en C.Serra') }}</option>
+        <option value="5" type="text">{{ _('Casa de 290 m\u00B2 en C.Serra') }}</option>
+        <option value="6" type="text">{{ _('Casa de 285 m\u00B2 en el Casco antiguo/Zona Iglesia') }}</option>
+        <option value="7" type="text">{{ _('Piso de 60 m\u00B2 en el Centro') }}</option>
+        <option value="8" type="text">{{ _('Piso de 100 m\u00B2 en el Centro') }}</option>
+        <option value="9" type="text">{{ _('Piso de 130 m\u00B2 en el Centro') }}</option>
+        <option value="10" type="text">{{ _('Casa de 240 m\u00B2 en el Centro') }}</option>
+        <option value="11" type="text">{{ _('Piso de 145 m\u00B2 en Creueta/Rambla') }}</option>
+        <option value="12" type="text">{{ _('Casa de 250 m\u00B2 en Creueta/Rambla') }}</option>
+        <option value="13" type="text">{{ _('Piso de 100 m\u00B2 en Romaní-Nord') }}</option>
+        <option value="14" type="text">{{ _('Casa de 270 m\u00B2 en Romaní-Nord') }}</option>
+        <option value="15" type="text">{{ _('Casa de 210 m\u00B2 en Serra Maurina') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('IBI') }}: <span id="select-house-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-house-bonus">{{ _('Bonificación Inmueble ') }}</label>
+      <select id="select-house-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Familia numerosa general o monoparental con valor catastral menor de 150.000€ (50%)') }}</option>
+      </select>
+    </div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-vehicle">{{ _('Vehículo') }}</label>
+      <select id="select-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Coche pequeño') }}</option>
+        <option value="2" type="text">{{ _('Coche mediano/grande') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-vehicle-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-vehicle-bonus">{{ _('Bonificación vehículo') }}</label>
+      <select id="select-vehicle-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Vehículo histórico (100%)') }}</option>
+        <option value="2" type="text">{{ _('Vehículo de más de 25 años (50%)') }}</option>
+        <option value="3" type="text">{{ _('Vehículo biocombusticle / eléctrico / ahorro energético (50%)') }}</option>
+      </select>
+    </div>
+  </div>
+    
+  <div class="row">
+    <div class="form-group">
+      <label for="select-extra-vehicle">{{ _('Vehículo adicional') }}</label>
+      <select id="select-extra-vehicle" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguno') }}</option>
+        <option value="1" type="text">{{ _('Coche pequeño') }}</option>
+        <option value="2" type="text">{{ _('Coche mediano/grande') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-extra-vehicle-tax"></span></div>
+    <div class="form-group" style="clear: both">
+      <label for="select-extra-vehicle-bonus">{{ _('Bonificación vehículo adicional') }}</label>
+      <select id="select-extra-vehicle-bonus" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Vehículo histórico (100%)') }}</option>
+        <option value="2" type="text">{{ _('Vehículo de más de 25 años (50%)') }}</option>
+        <option value="3" type="text">{{ _('Vehículo biocombusticle / eléctrico / ahorro energético (50%)') }}</option>
+      </select>
+    </div>
+  </div>
+    
+  
+  <h3>{{ _('Tasas') }}</h3>
+
+  <div class="row">
+    <div class="form-group">
+      <label for="select-parking">{{ _('¿Tienes un vado?') }}</label>
+      <select id="select-parking" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('No') }}</option>
+        <option value="1" type="text">{{ _('Sí, de 3 metros') }}</option>
+        <option value="2" type="text">{{ _('Sí, de 4 metros') }}</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Tasa') }}: <span id="select-parking-tax"></span></div>
+  </div>
+
+</form>
+
+<p id="tax-amount">{{ _('Contribuyes con un total de <b id="tax-amount-paid"></b> a los presupuestos del Gobierno de Aragón')|safe }}.</p>
