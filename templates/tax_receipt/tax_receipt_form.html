@@ -26,10 +26,10 @@
     </div>
     <div class="select-info">{{ _('IBI') }}: <span id="select-house-tax"></span></div>
     <div class="form-group" style="clear: both">
-      <label for="select-house-bonus">{{ _('Bonificación Inmueble ') }}</label>
+      <label class="bonus" for="select-house-bonus">{{ _('Bonificación Inmueble') }}</label>
       <select id="select-house-bonus" class="form-control">
         <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
-        <option value="1" type="text">{{ _('Familia numerosa general o monoparental con valor catastral menor de 150.000€ (50%)') }}</option>
+        <option value="1" type="text">{{ _('Familia numerosa general o monoparental con valor catastral menor de 150.000€') }} (50%)</option>
       </select>
     </div>
   </div>
@@ -45,12 +45,12 @@
     </div>
     <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-vehicle-tax"></span></div>
     <div class="form-group" style="clear: both">
-      <label for="select-vehicle-bonus">{{ _('Bonificación vehículo') }}</label>
+      <label class="bonus" for="select-vehicle-bonus">{{ _('Bonificación vehículo') }}</label>
       <select id="select-vehicle-bonus" class="form-control">
         <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
-        <option value="1" type="text">{{ _('Vehículo histórico (100%)') }}</option>
-        <option value="2" type="text">{{ _('Vehículo de más de 25 años (50%)') }}</option>
-        <option value="3" type="text">{{ _('Vehículo biocombusticle / eléctrico / ahorro energético (50%)') }}</option>
+        <option value="1" type="text">{{ _('Vehículo histórico') }} (100%)</option>
+        <option value="2" type="text">{{ _('Vehículo de más de 25 años') }} (50%)</option>
+        <option value="3" type="text">{{ _('Vehículo biocombusticle / eléctrico / ahorro energético') }} (50%)</option>
       </select>
     </div>
   </div>
@@ -66,18 +66,48 @@
     </div>
     <div class="select-info">{{ _('Impuesto a vehículos motorizados') }}: <span id="select-extra-vehicle-tax"></span></div>
     <div class="form-group" style="clear: both">
-      <label for="select-extra-vehicle-bonus">{{ _('Bonificación vehículo adicional') }}</label>
+      <label class="bonus" for="select-extra-vehicle-bonus">{{ _('Bonificación vehículo adicional') }}</label>
       <select id="select-extra-vehicle-bonus" class="form-control">
         <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
-        <option value="1" type="text">{{ _('Vehículo histórico (100%)') }}</option>
-        <option value="2" type="text">{{ _('Vehículo de más de 25 años (50%)') }}</option>
-        <option value="3" type="text">{{ _('Vehículo biocombusticle / eléctrico / ahorro energético (50%)') }}</option>
+        <option value="1" type="text">{{ _('Vehículo histórico') }} (100%)</option>
+        <option value="2" type="text">{{ _('Vehículo de más de 25 años') }} (50%)</option>
+        <option value="3" type="text">{{ _('Vehículo biocombusticle / eléctrico / ahorro energético') }} (50%)</option>
       </select>
     </div>
   </div>
     
   
   <h3>{{ _('Tasas') }}</h3>
+
+  <div class="row">
+    <div class="form-group">
+      <label>{{ _('Bonificaciones tasa de basuras') }}</label>
+    </div>
+    <div class="form-group" style="clear: both">
+      <label class="bonus" for="select-garbage-bonus-1">{{ _('Bonificación para pensionistas o desempleados') }}</label>
+      <select id="select-garbage-bonus-1" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Pensionista o desempleado cuya media de ingresos anuales familiares no supera el salario mínimo') }} (100%)</option>
+        <option value="2" type="text">{{ _('Pensionista o desempleado cuya media de ingresos anuales familiares sea entre 1 y 1.5 veces el salario mínimo') }} (50%)</option>
+      </select>
+    </div>
+    <div class="select-info">{{ _('Tasa de basuras') }}: <span id="select-garbage-tax"></span></div>
+    <div class="checkbox" style="clear: both">
+      <label>
+        <input id="select-garbage-bonus-2" type="checkbox">{{ _('Bonificación por compostaje') }} (40%)
+      </label>
+    </div>
+    <div class="form-group" style="clear: both">
+      <label class="bonus" for="select-garbage-bonus-3">{{ _('Bonificación por uso del basurero municipal') }}</label>
+      <select id="select-garbage-bonus-3" class="form-control">
+        <option value="0" type="text" selected="selected">{{ _('Ninguna') }}</option>
+        <option value="1" type="text">{{ _('Una visita al basurero depositando 5-9 residuos de diferente tipo') }} (10%)</option>
+        <option value="2" type="text">{{ _('Entre 2 y 4 visitas depositando al menos 5 residuos de diferente tipo cada vez o entre 10 y 20 aportaciones') }} (20%)</option>
+        <option value="3" type="text">{{ _('Entre 5 y 7 visitas depositando al menos 5 residuos de diferente tipo cada vez o entre 21 y 30 aportaciones') }} (30%)</option>
+        <option value="4" type="text">{{ _('8 o más visitas depositando al menos 5 residuos de diferente tipo cada vez o más de 31 aportaciones') }} (40%)</option>
+      </select>
+    </div>
+  </div>
 
   <div class="row">
     <div class="form-group">

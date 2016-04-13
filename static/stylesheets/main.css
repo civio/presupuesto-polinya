@@ -7987,10 +7987,16 @@ body.widget .stacked-area-chart-legend {
 .tax-receipt-table-content {
   background: white; }
 
-.tax-receipt-content .form-user-incomings h3 {
-  color: #777777; }
 .tax-receipt-content .form-user-incomings,
 .tax-receipt-content #tax-amount {
   background: #F2F2F2; }
+.tax-receipt-content .form-user-incomings h3 {
+  color: #777777; }
+.tax-receipt-content .form-user-incomings label.bonus {
+  font-weight: normal; }
+.tax-receipt-content .form-user-incomings .checkbox {
+  clear: both; }
+  .tax-receipt-content .form-user-incomings .checkbox label {
+    line-height: 20px; }
 
 /*# sourceMappingURL=main.css.map */

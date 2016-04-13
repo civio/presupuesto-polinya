@@ -7,52 +7,260 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-18 12:14+0100\n"
+"POT-Creation-Date: 2016-04-13 16:37+0200\n"
 "PO-Revision-Date: 2016-03-03 03:13+0100\n"
+"Last-Translator: David Cabo <david@civio.es>\n"
+"Language-Team: \n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Last-Translator: David Cabo <david@civio.es>\n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.7\n"
 
-#: templates/base.html:4 templates/shared/social_sharing.html:5
-msgid "Presupuestos del Gobierno de Aragón"
-msgstr "Pressupostos de l'Ajuntament de Polinyà"
+#: templates/tax_receipt/tax_receipt_form.html:3
+#, fuzzy
+msgid "Impuestos"
+msgstr "Pressupost"
 
-#: templates/budgets/budgets_intro.html:16
-msgid "El dinero recaudado localmente se complementa con las transferencias de la Administración General del Estado y del Gobierno de Aragón, que son los encargados de recaudar otros ingresos como el IVA y el IRPF"
-msgstr "El pressupost municipal inclou altres ingressos provinents, principalment, de l'Administració General de l'Estat i de la Generalitat de Catalunya, que són els encarregats de recaudar altres ingressos com l'IVA i o l'IRPF"
+#: templates/tax_receipt/tax_receipt_form.html:7
+msgid "Inmueble"
+msgstr "Immoble"
 
-#: templates/budgets/index.html:17
-msgid "Ingresos y gastos en el Gobierno de Aragón"
-msgstr "Ingresos y gastos en el Ajuntament de Polinyà"
+#: templates/tax_receipt/tax_receipt_form.html:9
+msgid "Casa de 120 m² en Balmes"
+msgstr "Casa de 120 m² a Balmes"
 
-#: templates/budgets/index.html:127 templates/shared/data_sources.html:7 templates/shared/footer.html:18 templates/shared/header.html:28 templates/shared/header.html.py:61 templates/welcome/index.html:54
-msgid "Gobierno de Aragón"
-msgstr "Ajuntament de Polinyà"
+#: templates/tax_receipt/tax_receipt_form.html:10
+msgid "Piso de 90 m² en Balmes"
+msgstr "Pis de 90 m² a Balmes"
 
-#: templates/shared/data_sources.html:9
-msgid "Datos de inflación (Medias anuales de IPC para Aragón)"
-msgstr "Dades d'inflació (mitjanes anuals d'IPC per a Catalunya)"
+#: templates/tax_receipt/tax_receipt_form.html:11
+msgid "Casa de 250 m² en C.Rovira"
+msgstr "Casa de 250 m² a C.Rovira"
 
-#: templates/shared/data_sources.html:14
-msgid "Los ingresos y gastos mostrados incluyen únicamente al Gobierno de Aragón"
-msgstr "Els ingressos i despeses mostrades inclouen únicament al Ajuntament de Polinyà"
+#: templates/tax_receipt/tax_receipt_form.html:12
+msgid "Piso de 110 m² en C.Rovira"
+msgstr "Pis de 110 m² a C.Rovira"
 
-#: templates/tax_receipt/tax_receipt_form.html:75
+#: templates/tax_receipt/tax_receipt_form.html:13
+msgid "Piso de 130 m² en C.Serra"
+msgstr "Pis de 130 m² a C.Serra"
+
+#: templates/tax_receipt/tax_receipt_form.html:14
+msgid "Casa de 290 m² en C.Serra"
+msgstr "Casa de 290 m² a C.Serra"
+
+#: templates/tax_receipt/tax_receipt_form.html:15
+msgid "Casa de 285 m² en el Casco antiguo/Zona Iglesia"
+msgstr "Casa de 285 m² en el Casc antic/Zona Esglèsia"
+
+#: templates/tax_receipt/tax_receipt_form.html:16
+msgid "Piso de 60 m² en el Centro"
+msgstr "Pis de 60 m² al Centre"
+
+#: templates/tax_receipt/tax_receipt_form.html:17
+msgid "Piso de 100 m² en el Centro"
+msgstr "Pis de 100 m² al Centre"
+
+#: templates/tax_receipt/tax_receipt_form.html:18
+msgid "Piso de 130 m² en el Centro"
+msgstr "Pis de 130 m² al Centre"
+
+#: templates/tax_receipt/tax_receipt_form.html:19
+msgid "Casa de 240 m² en el Centro"
+msgstr "Casa de 240 m² al Centre"
+
+#: templates/tax_receipt/tax_receipt_form.html:20
+msgid "Piso de 145 m² en Creueta/Rambla"
+msgstr "Pis de 145 m² a Creueta/Rambla"
+
+#: templates/tax_receipt/tax_receipt_form.html:21
+msgid "Casa de 250 m² en Creueta/Rambla"
+msgstr "Casa de 250 m² a Creueta/Rambla"
+
+#: templates/tax_receipt/tax_receipt_form.html:22
+msgid "Piso de 100 m² en Romaní-Nord"
+msgstr "Pis de 100 m² a Romaní-Nord"
+
+#: templates/tax_receipt/tax_receipt_form.html:23
+msgid "Casa de 270 m² en Romaní-Nord"
+msgstr "Casa de 270 m² a Romaní-Nord"
+
+#: templates/tax_receipt/tax_receipt_form.html:24
+msgid "Casa de 210 m² en Serra Maurina"
+msgstr "Casa de 210 m² a Serra Maurina"
+
+#: templates/tax_receipt/tax_receipt_form.html:27
+msgid "IBI"
+msgstr "IBI"
+
+#: templates/tax_receipt/tax_receipt_form.html:29
+msgid "Bonificación Inmueble"
+msgstr "Bonificació Immoble"
+
+#: templates/tax_receipt/tax_receipt_form.html:31
+#: templates/tax_receipt/tax_receipt_form.html:50
+#: templates/tax_receipt/tax_receipt_form.html:71
+#: templates/tax_receipt/tax_receipt_form.html:89
+#: templates/tax_receipt/tax_receipt_form.html:103
+msgid "Ninguna"
+msgstr "Cap"
+
+#: templates/tax_receipt/tax_receipt_form.html:32
+msgid "Familia numerosa general o monoparental con valor catastral menor de 150.000€"
+msgstr "Família nombrosa general o monoparental amb valor cadastral menor de 150.000€"
+
+#: templates/tax_receipt/tax_receipt_form.html:39
+msgid "Vehículo"
+msgstr "Vehicle"
+
+#: templates/tax_receipt/tax_receipt_form.html:41
+#: templates/tax_receipt/tax_receipt_form.html:62
+msgid "Ninguno"
+msgstr "Cap"
+
+#: templates/tax_receipt/tax_receipt_form.html:42
+#: templates/tax_receipt/tax_receipt_form.html:63
+msgid "Coche pequeño"
+msgstr "Cotxe petit"
+
+#: templates/tax_receipt/tax_receipt_form.html:43
+#: templates/tax_receipt/tax_receipt_form.html:64
+msgid "Coche mediano/grande"
+msgstr "Cotxe mitjà/gran"
+
+#: templates/tax_receipt/tax_receipt_form.html:46
+#: templates/tax_receipt/tax_receipt_form.html:67
+msgid "Impuesto a vehículos motorizados"
+msgstr "Impost a vehicles motoritzats"
+
+#: templates/tax_receipt/tax_receipt_form.html:48
+msgid "Bonificación vehículo"
+msgstr "Bonificació vehicle"
+
+#: templates/tax_receipt/tax_receipt_form.html:51
+#: templates/tax_receipt/tax_receipt_form.html:72
+msgid "Vehículo histórico"
+msgstr "Vehicle històric"
+
+#: templates/tax_receipt/tax_receipt_form.html:52
+#: templates/tax_receipt/tax_receipt_form.html:73
+msgid "Vehículo de más de 25 años"
+msgstr "Vehicle de més de 25 anys"
+
+#: templates/tax_receipt/tax_receipt_form.html:53
+#: templates/tax_receipt/tax_receipt_form.html:74
+msgid "Vehículo biocombusticle / eléctrico / ahorro energético"
+msgstr "Vehicle biocombusticle / elèctric / estalvi energètic"
+
+#: templates/tax_receipt/tax_receipt_form.html:60
+msgid "Vehículo adicional"
+msgstr "Vehicle addicional"
+
+#: templates/tax_receipt/tax_receipt_form.html:69
+msgid "Bonificación vehículo adicional"
+msgstr "Bonificació vehicle addicional"
+
+#: templates/tax_receipt/tax_receipt_form.html:80
+msgid "Tasas"
+msgstr "Taxes"
+
+#: templates/tax_receipt/tax_receipt_form.html:84
+msgid "Bonificaciones tasa de basuras"
+msgstr "Bonificacions taxa d'escombraries"
+
+#: templates/tax_receipt/tax_receipt_form.html:87
+msgid "Bonificación para pensionistas o desempleados"
+msgstr "Bonificació per a pensionistes o aturats"
+
+#: templates/tax_receipt/tax_receipt_form.html:90
+msgid "Pensionista o desempleado cuya media de ingresos anuales familiares no supera el salario mínimo"
+msgstr "Pensionista o aturat la mitjana del qual d'ingressos anuals familiars no supera el salari mínim"
+
+#: templates/tax_receipt/tax_receipt_form.html:91
+msgid "Pensionista o desempleado cuya media de ingresos anuales familiares sea entre 1 y 1.5 veces el salario mínimo"
+msgstr "Pensionista o aturat la mitjana del qual d'ingressos anuals familiars sigui entre 1 i 1.5 vegades el salari mínim"
+
+#: templates/tax_receipt/tax_receipt_form.html:94
+msgid "Tasa de basuras"
+msgstr "Taxa d'escombraries"
+
+#: templates/tax_receipt/tax_receipt_form.html:97
+msgid "Bonificación por compostaje"
+msgstr "Bonificació per compostatge"
+
+#: templates/tax_receipt/tax_receipt_form.html:101
+msgid "Bonificación por uso del basurero municipal"
+msgstr "Bonificació per ús de la deixalleria municipal"
+
+#: templates/tax_receipt/tax_receipt_form.html:104
+msgid "Una visita al basurero depositando 5-9 residuos de diferente tipo"
+msgstr "Una visita a la deixalleria dipositant 5-9 residus de diferent tipus"
+
+#: templates/tax_receipt/tax_receipt_form.html:105
+msgid "Entre 2 y 4 visitas depositando al menos 5 residuos de diferente tipo cada vez o entre 10 y 20 aportaciones"
+msgstr "Entre 2 i 4 visites dipositant almenys 5 residus de diferent tipus cada vegada o entre 10 i 20 aportacions"
+
+#: templates/tax_receipt/tax_receipt_form.html:106
+msgid "Entre 5 y 7 visitas depositando al menos 5 residuos de diferente tipo cada vez o entre 21 y 30 aportaciones"
+msgstr "Entre 5 i 7 visites dipositant almenys 5 residus de diferent tipus cada vegada o entre 21 i 30 aportacions"
+
+#: templates/tax_receipt/tax_receipt_form.html:107
+msgid "8 o más visitas depositando al menos 5 residuos de diferente tipo cada vez o más de 31 aportaciones"
+msgstr "8 o més visites dipositant almenys 5 residus de diferent tipus cada vegada o més de 31 aportacions"
+
+#: templates/tax_receipt/tax_receipt_form.html:114
+msgid "¿Tienes un vado?"
+msgstr "Tens un gual?"
+
+#: templates/tax_receipt/tax_receipt_form.html:116
+msgid "No"
+msgstr "No"
+
+#: templates/tax_receipt/tax_receipt_form.html:117
+msgid "Sí, de 3 metros"
+msgstr "Si, de 3 metres"
+
+#: templates/tax_receipt/tax_receipt_form.html:118
+msgid "Sí, de 4 metros"
+msgstr "Si, de 4 metres"
+
+#: templates/tax_receipt/tax_receipt_form.html:121
+msgid "Tasa"
+msgstr "Taxa"
+
+#: templates/tax_receipt/tax_receipt_form.html:126
 msgid "Contribuyes con un total de <b id=\"tax-amount-paid\"></b> a los presupuestos del Gobierno de Aragón"
 msgstr "Contribueixes amb un total de <b id=\"tax-amount-paid\"></b> als pressupostos del Ajuntament de Polinyà"
 
-#: templates/welcome/index.html:12
+#: templates/tax_receipt/tax_receipt_script.html:66
+msgid "Política"
+msgstr "Política"
+
+#: templates/tax_receipt/tax_receipt_script.html:69
+msgid "Gasto"
+msgstr "Despesa"
+
+msgid "Presupuestos del Gobierno de Aragón"
+msgstr "Pressupostos de l'Ajuntament de Polinyà"
+
+msgid "El dinero recaudado localmente se complementa con las transferencias de la Administración General del Estado y del Gobierno de Aragón, que son los encargados de recaudar otros ingresos como el IVA y el IRPF"
+msgstr "El pressupost municipal inclou altres ingressos provinents, principalment, de l'Administració General de l'Estat i de la Generalitat de Catalunya, que són els encarregats de recaudar altres ingressos com l'IVA i o l'IRPF"
+
+msgid "Ingresos y gastos en el Gobierno de Aragón"
+msgstr "Ingresos y gastos en el Ajuntament de Polinyà"
+
+msgid "Gobierno de Aragón"
+msgstr "Ajuntament de Polinyà"
+
+msgid "Datos de inflación (Medias anuales de IPC para Aragón)"
+msgstr "Dades d'inflació (mitjanes anuals d'IPC per a Catalunya)"
+
+msgid "Los ingresos y gastos mostrados incluyen únicamente al Gobierno de Aragón"
+msgstr "Els ingressos i despeses mostrades inclouen únicament al Ajuntament de Polinyà"
+
 msgid "¿Cómo y en qué gasta el Gobierno de Aragón?"
 msgstr "Com i en què gasta el Ajuntament de Polinyà?"
 
-#: templates/welcome/index.html:42
 msgid "Para que tengas una idea general de los ingresos y gastos del Gobierno de Aragón"
 msgstr "Perquè et facis una idea general dels ingressos i les despeses del Ajuntament de Polinyà"
-
-#: templates/shared/header.html:33
-msgid "Presupuestos"
-msgstr "Pressupost"

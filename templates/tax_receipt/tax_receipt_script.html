@@ -31,8 +31,11 @@
       return val*(1-bonus);
     }
     function getGarbageTaxPaid() {
-      //return [112.50, 115.09, 109.86, 94.18][$("#select-garbage").val()];
-      return 93;
+      var bonus1 = [0, 1, 0.5][$("#select-garbage-bonus-1").val()];
+      var bonus2 = ($("#select-garbage-bonus-2").is(':checked')) ? 0.4 : 0;
+      var bonus3 = [0, 0.1, 0.2, 0.3, 0.4][$("#select-garbage-bonus-3").val()];
+      var bonus = (bonus1 > 0) ? bonus1 : bonus2+bonus3;
+      return 93*(1-bonus);
     }
     function getParkingTaxPaid() {
       return [0, 27.6, 36.8][$("#select-parking").val()];
@@ -87,7 +90,7 @@
     var getBreakdownValue = getBreakdownValueFunction('expense', '{{ latest_budget.name()|safe }}');
     var myGrid;
 
-    $("select").change(redrawGrid);
+    $('select, input[type="checkbox"]').change(redrawGrid);
     redrawGrid();
   })
 </script>
