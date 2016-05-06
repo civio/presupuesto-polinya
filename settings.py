@@ -55,6 +55,9 @@ SHOW_INSTITUTIONAL_TAB  = True
 # Show Subtotals panel in Overview. Default: False
 # SHOW_OVERVIEW_SUBTOTALS = True
 
+# Calculate budget indicators (True), or show/hide the ones hardcoded in HTML (False). Default: True.
+CALCULATE_BUDGET_INDICATORS = False
+
 # Show an extra column with actual revenues/expenses. Default: True.
 # Warning: the execution data still gets shown in the summary chart and in downloads.
 #SHOW_ACTUAL = True
