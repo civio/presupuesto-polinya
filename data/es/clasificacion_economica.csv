@@ -524,16 +524,16 @@ G,9,4,1,Devolución de fianzas
 #
 # Conceptos específicos de Polinya
 #
-I,3,0,5,Cementiri municipal
-I,3,1,4,Activitats culturals
-I,3,1,5,Activitats juvenils
-I,3,1,6,Activitats promoció econòmica
-I,3,2,7,Llicències autotaxis
-I,3,2,8,Llicències obertura establiments
-I,4,7,0,D'empreses privades
-I,5,2,0,Interessos de caixes i bancs
-G,1,4,1,Altre personal
-G,4,8,0,Ajuts socials
-G,4,8,2,Conveni Creu Roja
-G,4,8,3,Aportacio a grups politics
-G,4,8,9,Altres transferències
+I,3,0,5,Cementerio municipal
+I,3,1,4,Actividades culturales
+I,3,1,5,Actividades juveniles
+I,3,1,6,Actividades de promoción económica
+I,3,2,7,Licencias autotaxis
+I,3,2,8,Licencias apertura establecimientos
+I,4,7,0,De empresas privadas
+I,5,2,0,Intereses de cajas y bancos
+G,1,4,1,Otro personal
+G,4,8,0,Ayudas sociales
+G,4,8,2,Convenio Cruz Roja
+G,4,8,3,Aportación a grupos políticos
+G,4,8,9,Otras transferencias
