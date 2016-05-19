@@ -58,17 +58,18 @@
 1,7,2,0,Protecció i millora del medi ambient
 1,7,9,0,Altres actuacions relacionades amb el medi ambient
 2,2,1,0,Altres prestacions econòmiques a favor d'empleats
-2,3,0,0,Administració General de serveis socials.
+2,3,0,0,Administració General de serveis socials
 2,3,1,0,Assistència social primària
-2,3,2,0,Promoció social.
-2,3,3,0,Assistència a persones depenents.
+2,3,2,0,Promoció social
+2,3,3,0,Assistència a persones depenents
 2,4,1,0,Foment de l'ocupació
+2,4,2,0,Formació bàsica
 3,1,1,0,Protecció de la salubritat pública
 3,2,0,0,Administració general d'educació
-3,2,3,0,Funcionament de centres d'ensenyament preescolar i primària
+3,2,1,0,Funcionament de centres d'ensenyament preescolar i primària
+3,2,3,0,Promoció educativa
 3,2,3,1,Funcionament d'escoles bressol municipals
 3,2,3,2,Funcionament d'escoles públiques
-3,2,3,0,Promoció educativa
 3,2,6,0,Serveis complementaris d'educació
 3,3,0,0,Administració general de cultura
 3,3,2,1,Biblioteques públiques
@@ -81,8 +82,10 @@
 3,4,1,0,Promoció i foment de l'esport
 3,4,2,0,Instal·lacions esportives
 4,3,0,0,"Administració general de comerç, turisme i pimes"
+4,5,1,0,Brigada de obras
 4,5,4,0,Camins veïnals
-4,5,9,0,Altres infraestructures
+4,5,9,0,Horts
+4,5,9,9,Altres infraestructures
 9,1,0,0,Presidència
 9,1,2,0,Òrgans de govern
 9,2,0,0,Administració general
@@ -90,8 +93,6 @@
 9,2,4,0,Participació ciutadana
 9,2,9,9,Programa transversal
 9,2,9,0,Àrea d'atenció a les persones
-9,2,9,1,Horts
-9,2,9,2,Brigada
 9,2,9,3,Administració general d'educació
 9,3,2,0,Gestió del sistema tributari
 9,3,4,0,Gestió del deute i de la tresoreria

@@ -28,8 +28,18 @@ class PolinyaBudgetLoader(SimpleBudgetLoader):
             '3240': '3260',
             '3310': '3300',
             '3320': '3321',
+            '4590': '4599',
             '9230': '9232',
             '9290': '9299',
+        }
+
+        # Some inconsistencies in 2015- also
+        programme_mapping_post_2014 = {
+            # old programme: new programme
+            '1610': '1600',
+            '9292': '4510',
+            '9291': '4590',
+            '4590': '4599'
         }
 
         is_expense = (filename.find('gastos.csv')!=-1)
@@ -47,6 +57,8 @@ class PolinyaBudgetLoader(SimpleBudgetLoader):
             year = re.search('municipio/(\d+)/', filename).group(1)
             if int(year) < 2015:
                 fc_code = programme_mapping.get(fc_code, fc_code)
+            else:
+                fc_code = programme_mapping_post_2014.get(fc_code, fc_code)
 
             return {
                 'is_expense': True,
