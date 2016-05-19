@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-04-13 16:37+0200\n"
-"PO-Revision-Date: 2016-03-03 03:13+0100\n"
+"PO-Revision-Date: 2016-05-19 03:17+0200\n"
 "Last-Translator: David Cabo <david@civio.es>\n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -243,6 +243,10 @@ msgstr "Despesa"
 
 msgid "Presupuestos del Gobierno de Aragón"
 msgstr "Pressupostos de l'Ajuntament de Polinyà"
+
+#
+msgid "Información presupuestaria del Gobierno de Aragón"
+msgstr "Informació pressupostària de l'Ajuntament de Polinyà"
 
 msgid "El dinero recaudado localmente se complementa con las transferencias de la Administración General del Estado y del Gobierno de Aragón, que son los encargados de recaudar otros ingresos como el IVA y el IRPF"
 msgstr "El pressupost municipal inclou altres ingressos provinents, principalment, de l'Administració General de l'Estat i de la Generalitat de Catalunya, que són els encarregats de recaudar altres ingressos com l'IVA i o l'IRPF"
