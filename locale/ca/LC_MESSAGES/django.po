@@ -252,7 +252,7 @@ msgid "El dinero recaudado localmente se complementa con las transferencias de l
 msgstr "El pressupost municipal inclou altres ingressos provinents, principalment, de l'Administració General de l'Estat i de la Generalitat de Catalunya, que són els encarregats de recaudar altres ingressos com l'IVA i o l'IRPF"
 
 msgid "Ingresos y gastos en el Gobierno de Aragón"
-msgstr "Ingresos y gastos en el Ajuntament de Polinyà"
+msgstr "Ingressos i despeses a l'Ajuntament de Polinyà"
 
 msgid "Gobierno de Aragón"
 msgstr "Ajuntament de Polinyà"
