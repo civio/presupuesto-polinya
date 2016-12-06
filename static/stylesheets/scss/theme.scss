@@ -141,13 +141,6 @@
 }
 
 // Policies
-.policies-chart{
-  background: $brand-secondary;
-}
-
-.policies-graph{
-  background: white;
-}
 
 .stacked-area-chart-legend .label{
   
@@ -236,4 +229,9 @@
       }
     }
   }
+}
+
+#payments-search .btn-primary{
+  border-color: $brand-primary;
+  background: $brand-primary;
 }
