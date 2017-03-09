@@ -48,7 +48,8 @@ class PolinyaBudgetLoader(SimpleBudgetLoader):
         if is_expense:
             # We got 3-digit functional codes as input (mostly), so we make them all
             # into 4-digit ones by adding an extra zero, i.e. left-justify them adding a 0.
-            fc_code = line[1].ljust(4, '0')
+            # Note: later, in2csv started removing the leading zero, so we add it first if needed.
+            fc_code = line[1].zfill(3).ljust(4, '0')
 
             # Institutional codes are 2-digits, we expect them to be 3-digits.
             # We add a leading zero, this will make code '0' the root, the city hall.
