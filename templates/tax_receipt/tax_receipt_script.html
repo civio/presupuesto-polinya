@@ -16,8 +16,8 @@
     }
 
     function getHouseTaxPaid() {
-      var val = [420, 356, 792, 395, 426, 1112, 889, 205, 327, 621, 704, 751, 952, 461, 1227, 516][$("#select-house").val()];
-      var bonus = [0, 0.5][$('#select-house-bonus').val()];
+      var val = [376, 318, 665, 353, 381, 935, 747, 183, 292, 522, 591, 631, 800, 387, 1031, 433][$("#select-house").val()];
+      var bonus = [0, 0.7, 0.5, 0.3, 0.8, 0.6, 0.4][$('#select-house-bonus').val()];
       return val*(1-bonus);
     }
     function getVehicleTaxPaid() {
@@ -35,7 +35,7 @@
       var bonus2 = ($("#select-garbage-bonus-2").is(':checked')) ? 0.4 : 0;
       var bonus3 = [0, 0.1, 0.2, 0.3, 0.4][$("#select-garbage-bonus-3").val()];
       var bonus = (bonus1 > 0) ? bonus1 : bonus2+bonus3;
-      return 93*(1-bonus);
+      return 95*(1-bonus);
     }
     function getParkingTaxPaid() {
       return [0, 27.6, 36.8][$("#select-parking").val()];
