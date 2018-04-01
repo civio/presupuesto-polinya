@@ -22,7 +22,6 @@ class PolinyaPaymentsLoader(PaymentsLoader):
             'fc_code': '',
             'ec_code': line[5],
             'date': date,
-            'contract_type': '',
             'payee': self._titlecase(line[6].strip()),
             'description': self._spanish_titlecase(line[7].strip()),
             'amount': self._read_english_number(line[1])
