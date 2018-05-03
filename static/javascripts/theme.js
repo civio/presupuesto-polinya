@@ -9,11 +9,11 @@ $(document).ready(function(){
 
     $('.data-controllers .layout-slider .slider .slider-tick-label').each(function(){
       var val = $(this).html();
-      if (val === '2017'){
+      if (val === '2018'){
         $(this).html(val + '<br/><small><i> ('+ str2017[ $('html').attr('lang') ] +')</i></small>');
       }
     });
   };
 
-  // addYearSelectorCustomLabels();
+  addYearSelectorCustomLabels();
 });
