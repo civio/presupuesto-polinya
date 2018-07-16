@@ -37,6 +37,7 @@ class PolinyaBudgetLoader(SimpleBudgetLoader):
         # Some inconsistencies in 2015- also
         programme_mapping_post_2014 = {
             # old programme: new programme
+            '1521': '1500',
             '1610': '1600',
             '9292': '4510',
             '9291': '4590',
