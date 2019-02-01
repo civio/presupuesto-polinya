@@ -34,11 +34,13 @@
 9,4,,,Transferencias a otras administraciónes públicas
 #
 # Programas específicos de Polinya
+#
 0,1,1,0,Deuda pública
-1,3,0,0,Administración General de la Seguridad y Protección Civil
+1,3,0,0,Administración general de la seguridad y protección civil
+1,3,2,0,Seguridad y orden público
 1,3,5,0,Protección civil
 1,3,6,0,Servicio de prevención y extinción de incendios
-1,5,0,0,Administración General de Vivienda y Urbanismo
+1,5,0,0,Administración general de vivienda y urbanismo
 1,5,1,0,Urbanismo
 1,5,3,0,Vías públicas
 1,5,3,2,Pavimentación de vías públicas
@@ -60,14 +62,14 @@
 1,7,2,0,Protección y mejora del medio ambiente
 1,7,9,0,Otras actuaciones relacionadas con el medio ambiente
 2,2,1,0,Otras prestaciones económicas a favor de empleados
-2,3,0,0,Administración General de servicios sociales
+2,3,0,0,Administración general de servicios sociales
 2,3,1,0,Asistencia social primaria
 2,3,2,0,Promoción social
 2,3,3,0,Asistencia a personas dependientes
 2,4,1,0,Fomento del empleo
 2,4,2,0,Formación básica
 3,1,1,0,Protección de la salubridad pública
-3,2,0,0,Administración General de Educación
+3,2,0,0,Administración general de educación
 3,2,3,0,Funcionamiento de centros de enseñanza preescolar y primaria
 3,2,3,1,Funcionamiento de guarderías municipales
 3,2,3,2,Funcionamiento de escuelas públicas

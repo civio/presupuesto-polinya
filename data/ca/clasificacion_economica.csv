@@ -250,7 +250,7 @@ I,8,3,,Reintegrament de préstecs de fora del sector públic
 I,8,3,0,A curt termini
 I,8,3,1,A llarg termini
 I,8,4,,Devolució de dipòsits i fiances constituïts
-I,8,4,0,Devolució de dipòsits 
+I,8,4,0,Devolució de dipòsits
 I,8,4,1,Devolució de fiances
 I,8,5,,Alienació d'accions i participacions del sector públic
 I,8,6,,Alienació d'accions i participacions de fora del sector públic
@@ -321,7 +321,7 @@ G,2,1,0,Infraestructures i béns naturals
 G,2,1,2,Edificis i altres construccions
 G,2,1,3,"maquinària, instal·lacions tècniques i utillatge"
 G,2,1,4,Elements de transport
-G,2,1,5,Mobiliari 
+G,2,1,5,Mobiliari
 G,2,1,6,Èquips per a processos d'informació
 G,2,1,9,Altre immovilitzat material
 G,2,2,,"Material, subministraments i altres"
@@ -454,7 +454,7 @@ G,7,1,0,A organismes autònoms de l'entitat local
 G,7,1,1,A organismes autònoms de l'entitat local
 G,7,2,,A l'Administració de l'Estat
 G,7,2,0,A l'Administració General de l'Estat
-G,7,2,1,A organismes autònoms i agències 
+G,7,2,1,A organismes autònoms i agències
 G,7,2,2,A fundacions estatals
 G,7,2,3,"A societats mercantils estatals, entitats públiques empresarials i altres organismes públics"
 G,7,3,,A la seguretat social
@@ -520,7 +520,6 @@ G,9,3,1,A llarg termini
 G,9,4,,Devolució de dipòsits i fiances
 G,9,4,0,Devolució de dipòsits
 G,9,4,1,Devolució de fiances
-#
 #
 # Conceptos específicos de Polinya
 #
