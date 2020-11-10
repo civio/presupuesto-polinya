@@ -54,7 +54,7 @@ SHOW_INSTITUTIONAL_TAB  = True
 # SHOW_OVERVIEW_SUBTOTALS = True
 
 # Calculate budget indicators (True), or show/hide the ones hardcoded in HTML (False). Default: True.
-CALCULATE_BUDGET_INDICATORS = True
+CALCULATE_BUDGET_INDICATORS = False
 
 # Show an extra column with actual revenues/expenses. Default: True.
 # Warning: the execution data still gets shown in the summary chart and in downloads.
