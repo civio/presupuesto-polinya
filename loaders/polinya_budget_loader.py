@@ -13,6 +13,9 @@ class PolinyaBudgetLoader(SimpleBudgetLoader):
         return s.split('.')[0]
 
     def parse_item(self, filename, line):
+        if line[0]=='':
+            return;
+
         # Programme codes have changed in 2015, due to new laws. Since the application expects a code-programme
         # mapping to be constant over time, we are forced to amend budget data prior to 2015.
         # See https://github.com/dcabo/presupuestos-aragon/wiki/La-clasificaci%C3%B3n-funcional-en-las-Entidades-Locales
