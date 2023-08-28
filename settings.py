@@ -1,7 +1,5 @@
 # -*- coding: UTF-8 -*-
 
-from django.conf.urls import patterns, url
-
 MAIN_ENTITY_LEVEL = 'municipio'
 MAIN_ENTITY_NAME = 'Polinyà'
 
