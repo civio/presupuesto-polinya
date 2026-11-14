@@ -59,7 +59,6 @@
 
       totalTaxPaid = houseTaxPaid + vehicleTaxPaid + extraVehicleTaxPaid + garbageTaxPaid + parkingTaxPaid;
       $("#tax-amount-paid").text(formatTaxAmount(totalTaxPaid));
-      // XXX: window.location.hash = 'ingresos='+getIncomeInEuros();
 
       if ( myGrid !== undefined )  myGrid.destroy();
       myGrid = createBudgetGrid("#myGrid", gridData, [
